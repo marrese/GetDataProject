@@ -8,6 +8,10 @@ he goal is to prepare tidy data that can be used for later analysis (not include
 ###2. General Reference
 * Full description of source project is available at this url 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+* The data (in zipped format) is available t
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+* Along the course documentation on merging/casting and Tidy data, it is worth notice that some of the function utilized in this repo follow advices and description cited in this relevant document:
+Tidy Data, Hadley Wickham  - (http://vita.had.co.nz/papers/tidy-data.pdf)
 
 ##3. Project Description
 The project take the opportunity to investigate on wearable computing data. The data represent data collected from the accelerometers from the Samsung Galaxy S smartphone. 

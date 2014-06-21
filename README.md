@@ -23,15 +23,30 @@ The Codebook goes in a mre deep detail,where some techinalities are explained in
 * Variables decription
 * Operations details
 * transformation of work performed in each operation
+
 ###4.3 The run_analisys code
-This file contain an R file developed by the author in order to get, maniputate and transform data. Using this file the reader can clean and trasform project data, and also genarate the requested 2 dataset automatically.
+This file contain an R file developed by the author in order to get, maniputate and transform data. Using this file the reader can clean and trasform project data, and also genarate the requested 2 dataset automatically. The code contains comment each snippet of code (i.e. operating a bit of relevant work.
 
 ##5. General processing description
 ###5.1 Reading data and other assuptions on folder
+The assigned data are zipped in a file. It is assumed that this zip file should be unzipped manually first in a working directory (C:/Users/Marrese/Desktop/RDatabase/CleanData/project/UCI HAR Dataset) called root directory. From this point the script may operate unmanned.
+
 ###5.2 Reading data into R
+The file reading starts reading relevant file from the root directory:
+* activity table - containing type of activity
+* features - containing the type of variables observed
+The real observations are divided in two folder (train and test) probably for subsequent modeling job.
+For each folder the following files are extracted:
+* X_file (contaning observations for each feature)
+* Y_file
+* Subject file (containing numeric value ID of subject performing the activity)
+
 ###5.3 Combining data
+
 ###5.4 Clean & merge data
+
 ###5.5 Build the first Tidy dataset
+
 ###5.6 Build the second Tidy dataset
 
 

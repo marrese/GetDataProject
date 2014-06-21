@@ -140,6 +140,6 @@ longData=melt(TidyDF1,id=IDgroup,measure.vars=MeasureGroup)
 TidyDF2=dcast(longData,ActivityName+SubjectID ~ variable, mean)
 # write dataset onto root directory ad TidyDataset.csv
 dir=getwd()
-filename="TidyDataset.csv"
+filename="TidyDataset.txt"
 write.table(TidyDF2, paste(dir,"/",filename,sep=""))
 ################  end of Script ########################

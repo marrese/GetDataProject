@@ -58,10 +58,10 @@ At this point there is a unique dataset containing subject, activities and obser
 2. A second operation has been made to rename the activities in a more descriptive manner
 3. The same of above to appropriately label the data set with descriptive variable names
 
-###5.5 Build the first Tidy dataset
+###5.5 Compose the first Tidy dataset
 After a column resort in order to get a more readable dataset, finally the firts tidy dataset has been created (TidyDF1).
 
-###5.6 Build the second Tidy dataset
+###5.6 Compose the second Tidy dataset and save final result
 As requested, a second tidy dataset is generated from previous one by melting and casting function of reshape package. The first dataset if melted by activity and subject where measure variables are the observation, then the resulting dataframe is cast into a new independent dataset (TidyDF2) which contains the the average of each variable for each activity and each subject. The dataset is finaly written into the root directory as "TidyDataset.csv"
 
 

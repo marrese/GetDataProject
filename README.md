@@ -42,6 +42,10 @@ For each folder the following files are extracted:
 * Subject file (containing numeric value ID of subject performing the activity)
 
 ###5.3 Combining data
+In combining data following steps are executed.
+* concatenate X files (train/test) with subject file (train/test) and Y files (train/test)
+* merge by row train and test dataset
+At this point there is a unique dataset containing subject, activities and observation. This is 
 
 ###5.4 Clean & merge data
 

@@ -6,7 +6,9 @@ Repo containing codes and decription documents on project assigned in coursera c
 This document contains an overview of the project put in the course "Getting and Cleaning Data" . It has bee compiled in june 2014. The purpose of this project is to demonstrate the ability to collect, work with, and clean a data set. T
 he goal is to prepare tidy data that can be used for later analysis (not included in this project).
 ###2. General Reference
-put the relevant documentation
+* Full description of source project is available at this url 
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
 ##3. Project Description
 The project take the opportunity to investigate on wearable computing data. The data represent data collected from the accelerometers from the Samsung Galaxy S smartphone. 
 The project consists in these two general high level goal:
@@ -45,12 +47,16 @@ For each folder the following files are extracted:
 In combining data following steps are executed.
 * concatenate X files (train/test) with subject file (train/test) and Y files (train/test)
 * merge by row train and test dataset
-At this point there is a unique dataset containing subject, activities and observation. This is 
+At this point there is a unique dataset containing subject, activities and observation in one place (xtot). This is used in the subsequent phase.
 
 ###5.4 Clean & merge data
+1. Since the project assignment requires only the use of tw type of observation, mean and std, the principal cleaning operation is to remove all useless variables (not mean, not std in their name).
+2. A second operation has been made to rename the activities in a more descriptive manner
+3. The same of above to appropriately label the data set with descriptive variable names
 
 ###5.5 Build the first Tidy dataset
+After a column resort in order to get a more readable dataset, finally the firts tidy dataset has been created (TidyDF1).
 
 ###5.6 Build the second Tidy dataset
-
+As requested, a second tidy dataset is generated from previous one by melting and casting function of reshape package. The first dataset if melted by activity and subject where measure variables are the observation, then the resulting dataframe is cast into a new independent dataset (TidyDF2) which contains the the average of each variable for each activity and each subject.
 

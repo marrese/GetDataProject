@@ -62,5 +62,6 @@ At this point there is a unique dataset containing subject, activities and obser
 After a column resort in order to get a more readable dataset, finally the firts tidy dataset has been created (TidyDF1).
 
 ###5.6 Build the second Tidy dataset
-As requested, a second tidy dataset is generated from previous one by melting and casting function of reshape package. The first dataset if melted by activity and subject where measure variables are the observation, then the resulting dataframe is cast into a new independent dataset (TidyDF2) which contains the the average of each variable for each activity and each subject.
+As requested, a second tidy dataset is generated from previous one by melting and casting function of reshape package. The first dataset if melted by activity and subject where measure variables are the observation, then the resulting dataframe is cast into a new independent dataset (TidyDF2) which contains the the average of each variable for each activity and each subject. The dataset is finaly written into the root directory as "TidyDataset.csv"
+
 

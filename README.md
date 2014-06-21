@@ -35,7 +35,7 @@ This file contain an R file developed by the author in order to get, maniputate 
 
 ##5. General processing description
 ###5.1 Reading data and other assuptions on folder
-The assigned data are zipped in a file. It is assumed that this zip file should be unzipped manually first in a working directory (C:/Users/Marrese/Desktop/RDatabase/CleanData/project/UCI HAR Dataset) called root directory. From this point the script may operate unmanned.
+The assigned data are zipped in a file. The script create a folder "samsung" in the current directory the user is (tipically Desktop), then download the file from WEB putting into "samsung" folder, unzipping it. The script then open the folder "HC...." where the real data are, setting also this folder as working one.
 
 ###5.2 Reading data into R
 The file reading starts reading relevant file from the root directory:

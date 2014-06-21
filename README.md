@@ -20,8 +20,11 @@ The project consists in these two general high level goal:
 This document file contains a general processing description of the work (see chapter 5)
 ###4.2 The Codebook
 The Codebook goes in a mre deep detail,where some techinalities are explained in detail as the following:
-*
+* Variables decription
+* Operations details
+* transformation of work performed in each operation
 ###4.3 The run_analisys code
+This file contain an R file developed by the author in order to get, maniputate and transform data. Using this file the reader can clean and trasform project data, and also genarate the requested 2 dataset automatically.
 ##5. General processing description
 ###5.1 Reading data and other assuptions on folder
 ###5.2 Reading data into R

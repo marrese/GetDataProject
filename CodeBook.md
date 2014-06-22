@@ -20,8 +20,11 @@ After the unzipping the folder presents the following strucure:
 ## Data Cleaning
 The resulting dataset are thet massaged in the following way:
 1. The dataset TRAIN and TEST are concatenated by row (the resulting dataset is called "xtot")
+
 2. Since the assignement requires only the use of mean and std variable, the xtot dataset is then reduced to that variables (by mean of grep function which scans on the label names reporting the result in a logical way.
+
 3. The real Activity name are the inserted in the xtot dataset (function merge)
+
 4. In order to get a more readable var description, these are the renamed in a more descriptive fashion (use of gsub function)
 
 

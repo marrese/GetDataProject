@@ -12,7 +12,9 @@ After the unzipping the folder presents the following strucure:
 1.1  UC....
 
 
-1.1.1  General files applicable to all dataset
+1.1.1  General files applicable to all dataset 
+Avtivity_label
+Features
 
 1.1.2 TRAIN folder containing subset of measurements related to TRAIN
 

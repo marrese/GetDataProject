@@ -6,14 +6,24 @@ the structure of output of these transformation.
 ## Data input
 The data is found on web and is presented as a zipp file. This file is downloaded (refer to run_analysis script)  and unzipped in a folder called "samsung/UCI...".
 After the unzipping the folder presents the following strucure:
+
 1. Samsung
-1.1 UC....
-1.1.1 General files applicable to all dataset
+
+1.1  UC....
+
+
+1.1.1  General files applicable to all dataset
+
 1.1.2 TRAIN folder containing subset of measurements related to TRAIN
-1.1.2.1 
+
+1.1.2.1
+
 1.1.2.2
+
 1.1.3 TEST folder containing subset of measurements relate to TEST
 1.1.3.1
+
+
 1.1.3.2
 
 ## Data Cleaning
